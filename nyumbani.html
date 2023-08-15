@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Baraka Sanga">
+<meta name="description" content="This page contains Iringa Multisales Network Home page in general.">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta http-equiv="refresh" content="30">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nyumbani</title>
+<link rel href="images/Logo.jpg">
+<link rel="stylesheet" href="styles/header.css">
+<link rel="stylesheet" href="styles/body.css">
+<link rel="stylesheet" href="styles/sidebar.css">
+<link rel="stylesheet" href="styles/sidebar2.css">
+</head>
+<body class="body2">
+<div class="header">
+<div class="leftsection">
+<div><img class="company-logo" src="images/Logo.jpg" alt="logo-copy"></div>
+</div>
+
+<div class="middlesection">
+<div class="company-title">IRINGA MULTISALES NETWORK<br><hr><span>COMMISSION AGENTS & AUCTIONEERS</span></div>
+</div>
+
+<div class="rightsection">
+<div>
+<div class="lugha">Choose a language</div>
+<div class="lugha">Chagua lugha</div>
+<div class="lugha">شاغوا لوغا</div>
+<hr>
+<a class="kiswahili-link" href="kiswahili.html">SWAHILI</a>
+<a class="english-link" href="english.html">ENGLISH</a>
+<a class="english-link" href="english.html">ARABIC</a>
+
+<hr>
+</div>
+</div>
+</div>
+
+
+<div>
+<div class="sidebar-2">
+<div class="sidebar-link"><a class="menus" href="nyumbani.html">NYUMBANI</a></div>
+<div class="sidebar-link"><a class="menus" href="kuhususisi.html">KUHUSU SISI</a></div>
+<div class="sidebar-link"><a class="menus" href="kazizetu.html">KAZI TUNAZOFANYA</a></div>
+<div class="sidebar-link"><a class="menus" href="sokonileo.html">SOKONI LEO</a></div>
+<div class="sidebar-link"><a class="menus" href="idara.html">IDARA</a></div>
+<div class="sidebar-link"><a class="menus" href="wawekezaji.html">WAWEKEZAJI WA NNJE</a></div>
+<div class="sidebar-link"><a class="menus" href="diasporas.html">DIASPORAS</a></div>
+<div class="sidebar-link"><a class="menus" href="wasiliananasi.html">WASILIANA NASI</a></div>
+</div>
+</div>
+
+<div  class="nyumbani-grid">
+<div> 
+<img src="images/Karibu.png" alt="Karibu" title="Iringa Multisales Network" width="100" loading="lazy">
+</div>
+<div>
+<img class="logo-iringa" src="images/Logo.jpg" alt="logo" width="200" loading="lazy" title="Iringa Multisales-Network">
+</div>
+<div class="w3-content w3-section" style="max-width:450px;">
+<img class="mySlides w3-animate-center" src="images/Presentation1.png" style="width:100%" alt="Presentation1">
+<img class="mySlides w3-animate-center" src="images/Presentation2.png" style="width:100%" alt="Presentation2">
+<img class="mySlides w3-animate-center" src="images/image3.png" style="width:100%" alt="image3">
+<img class="mySlides w3-animate-center" src="images/Presentation1.png" style="width:100%" alt="Presentation1">
+<img class="mySlides w3-animate-center" src="images/Presentation2.png" style="width:100%" alt="Presentation2">
+<img class="mySlides w3-animate-center" src="images/image3.png" style="width:100%" alt="image3">
+</div>
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+var i;
+var x = document.getElementsByClassName("mySlides");
+for (i = 0; i < x.length; i++) {
+x[i].style.display = "none";  
+}
+myIndex++;
+if (myIndex > x.length) {myIndex = 1}    
+x[myIndex-1].style.display = "block";  
+setTimeout(carousel, 3000);    
+}
+</script>
+
+<hr>
+<div>
+<footer class="footer-flex">
+Haki miliki &copy; 2023 Iringa Multisales Network. Haki zote zimehifadhiwa.
+</footer>
+</div>
+<hr>
+</body>
+</html>

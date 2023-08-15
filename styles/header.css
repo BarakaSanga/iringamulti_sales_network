@@ -1,0 +1,95 @@
+
+.header{
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: lightgray;
+  padding-left: 1px;
+  padding-right: 1px;
+
+}
+.leftsection{
+  display: flex;
+  align-items: center;
+}
+.leftsection:hover{
+  opacity: 0.5;
+}
+.middlesection{
+display: flex;
+flex: 1;
+align-items: center;
+background: url("../Images/picture1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.middlesection:hover{
+  opacity: 0.5;
+}
+.company-title{
+  color: rgb(157, 255, 0);
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.company-title{
+  animation-name:fade-in;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-delay: 10s;
+}
+span{
+  color:blue;
+}
+
+@keyframes fade-in{
+from{opacity: 1;}
+to{opacity: 0;}
+}
+.rightsection{
+background-color: blue;
+display: flex;
+align-items: center;
+}
+.rightsection:hover{
+  opacity: 0.5;
+}
+.lugha{
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family:sans-serif;
+  line-height: 20px;
+}
+.kiswahili-link{
+  margin-right: 10px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-style: Arial;
+  font-weight: bold;
+}
+.kiswahili-link:hover{
+  opacity: 0.5;
+}
+.english-link{
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+  font-style: Arial;
+  font-weight: bold;
+}
+.english-link:hover{
+  opacity: 0.5;
+}

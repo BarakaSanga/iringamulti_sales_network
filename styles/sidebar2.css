@@ -1,0 +1,47 @@
+.sidebar-2{
+  background-color: black;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 235px;
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.sidebar-2-arabic{
+  background-color: black;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 235px;
+  padding-right: 40px;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+.sidebar-link{
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-weight:bold;
+  text-decoration: none;
+  color: white;
+}
+.menus{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 1.5s;
+}
+.menus:hover{
+  color:yellow;
+}
+.sidebar-link:hover{
+  opacity:0.5;
+}

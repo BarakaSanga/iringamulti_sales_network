@@ -10,6 +10,15 @@
   padding-top: 15px;
 }
 
+@media (max-width: 675px) {
+  .sidebar{
+    flex-direction: column;
+  }
+  .sidebar{
+    text-align: center;
+  }
+}
+
 .sidebar-arabic{
   background-color: black;
   color: white;
@@ -20,6 +29,15 @@
   padding-right: 40px;
   padding-left: 30px;
   padding-top: 15px;
+}
+
+@media (max-width: 675px) {
+  .sidebar-arabic{
+    flex-direction: column;
+  }
+  .sidebar-arabic{
+    text-align: center;
+  }
 }
 .sidebar-link{
   height: 45px;

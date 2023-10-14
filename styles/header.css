@@ -15,13 +15,33 @@
   padding-right: 1px;
 
 }
+
+@media (max-width: 675px) {
+  .header{
+    flex-direction: column;
+  }
+  .header{
+    text-align: center;
+  }
+}
 .leftsection{
   display: flex;
   align-items: center;
 }
+
+@media (max-width: 675px) {
+  .leftsection{
+    flex-direction: column;
+  }
+  .leftsection{
+    text-align: center;
+  }
+}
+
 .leftsection:hover{
   opacity: 0.5;
 }
+
 .middlesection{
 display: flex;
 flex: 1;
@@ -29,16 +49,34 @@ align-items: center;
 background: url("../Images/picture1.jpg");
 background-repeat: no-repeat;
 background-size: cover;
+}
 
+@media (max-width: 675px) {
+  .middlesection{
+    flex-direction: column;
+  }
+  .middlesection{
+    text-align: center;
+  }
 }
 .middlesection:hover{
   opacity: 0.5;
 }
 .company-title{
-  color: rgb(157, 255, 0);
+  color: rgb(153, 16, 62);
   font-size: 50px;
   font-weight: bold;
+  display: flex;
   text-align: center;
+}
+
+@media (max-width: 675px) {
+  .company-title{
+    flex-direction: column;
+  }
+  .company-title{
+    text-align: center;
+  }
 }
 .company-title{
   animation-name:fade-in;
@@ -50,6 +88,10 @@ background-size: cover;
 }
 span{
   color:blue;
+  font-size:30px;
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
 }
 
 @keyframes fade-in{
@@ -72,6 +114,15 @@ align-items: center;
   font-family:sans-serif;
   line-height: 20px;
 }
+
+@media (max-width: 675px) {
+  .lugha{
+    flex-direction: column;
+  }
+  .lugha{
+    text-align: center;
+  }
+}
 .kiswahili-link{
   margin-right: 10px;
   margin-left: 20px;
@@ -79,6 +130,15 @@ align-items: center;
   color: white;
   font-style: Arial;
   font-weight: bold;
+}
+
+@media (max-width: 675px) {
+  .kiswahili-link{
+    flex-direction: column;
+  }
+  .kiswahili-link{
+    text-align: center;
+  }
 }
 .kiswahili-link:hover{
   opacity: 0.5;
@@ -89,6 +149,15 @@ align-items: center;
   color: white;
   font-style: Arial;
   font-weight: bold;
+}
+
+@media (max-width: 675px) {
+  .english-link{
+    flex-direction: column;
+  }
+  .english-link{
+    text-align: center;
+  }
 }
 .english-link:hover{
   opacity: 0.5;
